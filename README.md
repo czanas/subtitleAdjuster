@@ -23,21 +23,21 @@ This code could probably a lot shorter, but I opt for readability ;)
 
 # Assumptions regarding the input subtitle format
 The subtitle format should be of the form: 
-`N
+``N
 hh:mm:ss,ms --> hh:mm:ss,ms 
 TEXT TEXT 
-`
+``
 or 
-`N
+``N
 hh:mm:ss.ss_fraction -->hh:mm:ss.ms
 TEXT TEXT 
-`
+``
 Example: 
-`2
+``2
 00:01:30.280 --> 00:01:34.918
 <i>In the Bay of Naples, a few kilometers
 from Pompeii and Vesuvius,</i>
-`
-`3
+``
+``3
 00:01:30,300 --> 00:01:34,900
-Hey there`
+Hey there``
