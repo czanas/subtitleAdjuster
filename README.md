@@ -27,17 +27,23 @@ The subtitle format should be of the form:
 hh:mm:ss,ms --> hh:mm:ss,ms 
 TEXT TEXT 
 ``
+
 or 
+
 ``N
 hh:mm:ss.ss_fraction -->hh:mm:ss.ms
 TEXT TEXT 
 ``
+
+
 Example: 
+
 ``2
 00:01:30.280 --> 00:01:34.918
 <i>In the Bay of Naples, a few kilometers
 from Pompeii and Vesuvius,</i>
 ``
+
 ``3
 00:01:30,300 --> 00:01:34,900
 Hey there``
