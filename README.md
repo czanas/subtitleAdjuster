@@ -1,15 +1,15 @@
 # subtitleAdjuster
 A Perl script to adjust (shift) subtitles 
 
-#Purpose
+# Purpose
 This a simple perl script used to shift timestamps of movie subtitles.
 
-#Directions
+# Directions
 Before running the program, you must have Perl installed on your system.
 Perl comes pre-installed on MacOS and Linux Distros
 Make sure this program is executable use the command "chmod +x subr.pl"
 
-##example: ./subr.pl -f file_name.srt +1h -2m +6s -100ms
+## example: ./subr.pl -f file_name.srt +1h -2m +6s -100ms
 Note: the order of the arguments does not matter. 
       It is however required to specified the + or - next to the shift
       If the filename includes whitespaces, it is recommended to pass
@@ -21,7 +21,7 @@ in its name.
 This code could probably a lot shorter, but I opt for readability ;) 
 
 
-#Assumptions regarding the input subtitle format
+# Assumptions regarding the input subtitle format
 The subtitle format should be of the form: 
 N
 hh:mm:ss,ms --> hh:mm:ss,ms 
